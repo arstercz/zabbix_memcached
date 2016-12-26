@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2016-12-26T05:46:30Z</date>
+    <date>2016-12-26T07:35:09Z</date>
     <groups>
         <group>
             <name>memcached_zabbix</name>
@@ -71,8 +71,8 @@
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
-                            <units>b</units>
-                            <delta>0</delta>
+                            <units>B</units>
+                            <delta>1</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -113,8 +113,8 @@
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
-                            <units>b</units>
-                            <delta>0</delta>
+                            <units>B</units>
+                            <delta>1</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -236,7 +236,7 @@
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units>items</units>
-                            <delta>0</delta>
+                            <delta>1</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -320,7 +320,7 @@
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units>items</units>
-                            <delta>0</delta>
+                            <delta>1</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -446,7 +446,7 @@
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units>items</units>
-                            <delta>0</delta>
+                            <delta>1</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -488,7 +488,7 @@
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units>items</units>
-                            <delta>0</delta>
+                            <delta>1</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -571,7 +571,7 @@
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
-                            <units>b</units>
+                            <units>B</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -645,7 +645,7 @@
                                 </graph_item>
                                 <graph_item>
                                     <sortorder>1</sortorder>
-                                    <drawtype>0</drawtype>
+                                    <drawtype>5</drawtype>
                                     <color>FF9999</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
@@ -678,7 +678,7 @@
                                 <graph_item>
                                     <sortorder>0</sortorder>
                                     <drawtype>1</drawtype>
-                                    <color>33FFFF</color>
+                                    <color>FFCCFF</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
                                     <type>0</type>
@@ -709,7 +709,7 @@
                             <graph_items>
                                 <graph_item>
                                     <sortorder>0</sortorder>
-                                    <drawtype>1</drawtype>
+                                    <drawtype>5</drawtype>
                                     <color>3333FF</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
@@ -721,7 +721,7 @@
                                 </graph_item>
                                 <graph_item>
                                     <sortorder>1</sortorder>
-                                    <drawtype>1</drawtype>
+                                    <drawtype>5</drawtype>
                                     <color>DDDD00</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
@@ -766,7 +766,7 @@
                             </graph_items>
                         </graph_prototype>
                         <graph_prototype>
-                            <name>Memcached {#MEMPORT} Netword Traffic</name>
+                            <name>Memcached {#MEMPORT} Network  Traffic</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -785,7 +785,7 @@
                             <graph_items>
                                 <graph_item>
                                     <sortorder>0</sortorder>
-                                    <drawtype>1</drawtype>
+                                    <drawtype>5</drawtype>
                                     <color>00EE00</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
@@ -797,8 +797,8 @@
                                 </graph_item>
                                 <graph_item>
                                     <sortorder>1</sortorder>
-                                    <drawtype>1</drawtype>
-                                    <color>0000CC</color>
+                                    <drawtype>5</drawtype>
+                                    <color>6666FF</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
                                     <type>0</type>
@@ -829,7 +829,7 @@
                             <graph_items>
                                 <graph_item>
                                     <sortorder>0</sortorder>
-                                    <drawtype>1</drawtype>
+                                    <drawtype>5</drawtype>
                                     <color>00EE00</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
@@ -841,7 +841,7 @@
                                 </graph_item>
                                 <graph_item>
                                     <sortorder>1</sortorder>
-                                    <drawtype>1</drawtype>
+                                    <drawtype>5</drawtype>
                                     <color>FF66FF</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
