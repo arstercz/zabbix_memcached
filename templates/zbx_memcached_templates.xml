@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2016-12-26T04:29:46Z</date>
+    <date>2016-12-26T05:46:30Z</date>
     <groups>
         <group>
             <name>memcached_zabbix</name>
@@ -785,7 +785,7 @@
                             <graph_items>
                                 <graph_item>
                                     <sortorder>0</sortorder>
-                                    <drawtype>0</drawtype>
+                                    <drawtype>1</drawtype>
                                     <color>00EE00</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
@@ -797,7 +797,7 @@
                                 </graph_item>
                                 <graph_item>
                                     <sortorder>1</sortorder>
-                                    <drawtype>0</drawtype>
+                                    <drawtype>1</drawtype>
                                     <color>0000CC</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
