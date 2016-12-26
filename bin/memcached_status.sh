@@ -77,6 +77,15 @@ case $METRIC in
     'bytes_written')
         cat $CACHEFILE | grep " bytes_written " | cut -d':' -f2
         ;;
+    'ratio')
+        GHITS=$(cat $CACHEFILE | grep " get_hits " | cut -d' ' -f3 | sed -e 's/\r//g')
+        CGETS=$(cat $CACHEFILE | grep " cmd_get " | cut -d' ' -f3 | sed -e 's/\r//g')
+        if [[ $CGETS -eq 0 ]]; then
+            echo 0.00
+        else 
+            echo "$GHITS $CGETS" | awk '{printf("%0.2f",$1*100/$2)}'
+        fi
+        ;;
     *)
         echo "Not selected metric"
         exit 0
