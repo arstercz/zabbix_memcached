@@ -75,7 +75,7 @@ case $METRIC in
         cat $CACHEFILE | grep " bytes_read " | cut -d' ' -f3
         ;;
     'bytes_written')
-        cat $CACHEFILE | grep " bytes_written " | cut -d':' -f3
+        cat $CACHEFILE | grep " bytes_written " | cut -d' ' -f3
         ;;
     'ratio')
         GHITS=$(cat $CACHEFILE | grep " get_hits " | cut -d' ' -f3 | sed -e 's/\r//g')
